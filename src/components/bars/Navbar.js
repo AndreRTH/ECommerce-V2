@@ -1,6 +1,6 @@
-import React from 'react';
-import './navbar.css';
-import logo from '../../images/package.png';
+import React from "react";
+import "./navbar.css";
+import logo from "../../images/package.png";
 
 function Navbar() {
   return (
@@ -8,16 +8,16 @@ function Navbar() {
       <nav>
         <ul>
           <li>
-            <img id="logo" src={logo} alt="Logo" />
+            <img id="logo" src={logo} alt="Logo" />{" "}
           </li>
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html">Home</a>{" "}
           </li>
           <li>
-            <a href="about.html">About</a>
+            <a href="about.html">About</a>{" "}
           </li>
           <li>
-            <a href="products.html">Products</a>
+            <a href="products.html">Products</a>{" "}
           </li>
           <li>
             <a href="contact.html">Contact</a>
