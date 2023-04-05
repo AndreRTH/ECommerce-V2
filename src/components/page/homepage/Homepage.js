@@ -1,29 +1,18 @@
 import React from "react";
+import { Carousel } from "react-responsive-carousel";
+import DemoCarousel from "../../bars/Carousel";
+import Navbar from "../../bars/Navbar";
+import Footer from "../../bars/Footer";
 
 export default function Homepage() {
   return (
-    <main class="layout-content">
+    <>
+      <Navbar />
+
+      <main class="layout-content">
       <h1>StuffBox!</h1>
-      <section class="carousel">
-        <div class="slides">
-          <div class="slide">
-            <img src="../src/images/valentinesheart.avif" alt="Slide 1" />
-          </div>
-          <div class="slide">
-            <img src="../src/images/BespokeBoxWide.webp" alt="Slide 2" />
-          </div>
-          <div class="slide">
-            <img src="images/forher.jpg" alt="Slide 3" />
-          </div>
-          <div class="slide">
-            <img src="images/BespokeCigarsWide.avif" alt="Slide 4" />
-          </div>
-        </div>
-        <div class="buttons">
-          <button class="prev"></button>
-          <button class="next"></button>
-        </div>
-      </section>
+      <DemoCarousel />
+      
       <section class="products">
         <div class="product">
           <img src="images/cigarbox.jpg" alt="Product 1" />
@@ -93,5 +82,9 @@ export default function Homepage() {
         </div>
       </section>
     </main>
+    <Footer />
+
+    </>
+
   );
 }

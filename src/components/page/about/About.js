@@ -1,9 +1,14 @@
 import React from 'react';
 import './about.css';
+import Navbar from '../../bars/Navbar';
+import Footer from '../../bars/Footer';
 
 export default function About() {
   return (
+    <>
+        <Navbar />
     <main>
+    <h1>About Us</h1>
     <section class="card-container">
         <div class="card">
             <img src="images/testicon.png" alt="Card 1" />
@@ -22,6 +27,10 @@ export default function About() {
         </div>
     </section>
 </main>
+<Footer />
+
+    </>
+
     
   )
 }

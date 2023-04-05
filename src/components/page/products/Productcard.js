@@ -104,6 +104,7 @@ function ProductContainer() {
 
   return (
     <main>
+      <h1>Products</h1>
       <section className="product-container">
         {products.map((product, index) => (
           <ProductCard key={index} {...product} />
