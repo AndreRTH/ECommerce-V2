@@ -1,0 +1,17 @@
+footer {
+	background-color: #5A352A;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+	font-size: 14px;
+}
+
+.socialimg {
+    height:50px;
+    width: 50px;
+    margin:10px;
+}
