@@ -10,7 +10,7 @@ export default function Homepage() {
             <img src="../src/images/valentinesheart.avif" alt="Slide 1" />
           </div>
           <div class="slide">
-            <img src="images/BespokeBoxWide.webp" alt="Slide 2" />
+            <img src="../src/images/BespokeBoxWide.webp" alt="Slide 2" />
           </div>
           <div class="slide">
             <img src="images/forher.jpg" alt="Slide 3" />

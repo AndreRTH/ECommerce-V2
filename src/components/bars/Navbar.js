@@ -14,7 +14,7 @@ function Navbar() {
             <a href="index.html">Home</a>{" "}
           </li>
           <li>
-            <a href="about.html">About</a>{" "}
+            <a href="about.html">About</a>{""}
           </li>
           <li>
             <a href="products.html">Products</a>{" "}
