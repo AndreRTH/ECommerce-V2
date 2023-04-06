@@ -24,7 +24,7 @@ function Dbcard() {
         <div className="product-container">
         {stuff.map((stuff) => (
           <div className="product-card" key={stuff.id}>
-            {stuff.image && <img src={stuff.image} alt="" />}
+            {stuff.image && <img src={stuff.image} alt="stuff" />}
             <h2>{stuff.title}</h2>
             <p>{stuff.desc}</p>
             <p>${stuff.price}</p>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 import DemoCarousel from "../../bars/Carousel";
 import Navbar from "../../bars/Navbar";
 import Footer from "../../bars/Footer";
